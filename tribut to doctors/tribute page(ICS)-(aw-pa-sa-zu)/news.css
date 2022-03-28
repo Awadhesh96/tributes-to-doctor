@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ 
+
+body {
+    margin: 0;
+    background-color: #98a0a3;
+    background-image: url(image/covid.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 500px;
+    background-position: center;
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.header a:hover {
+    border-bottom: 1px solid white;
+    color: yellow;
+}
+
+.header-right {
+    float: right;
+}
+
+.main-con {
+    width: 100%;
+    height: 200px;
+    padding-left: 20px;
+}
+
+ul {
+    margin-left: 100px;
+}
+
+.main-con h2 {
+    margin-left: 150px;
+    margin-top: 150px;
+    color: rgb(72, 250, 220);
+}
+
+.main-con h1 {
+    color: rgb(240, 187, 64);
+    margin-left: 150px;
+    margin-top: 0px;
+    font-size: 80px;
+}
+
+.main-con h1:hover {
+    color: rgb(255, 255, 255);
+}
+
+.main-con p {
+    color: white;
+    margin-left: 40px;
+    margin-top: 0px;
+    font-family: 'Passion One', cursive;
+}
+
+.main-con p:hover {
+    color: goldenrod;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  
+}
+div.a {
+  text-align: right;
+  align-content: center;
+    margin: 0px 250px 0px 250px;
+}
+
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+   
+}
+
+td, th {
+  border: 1px solid #2b0d0d;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #b4aaaa;
+}
+div.cent{
+  background-color: #98a0a3;
+  font-family: Arial, Helvetica, sans-serif;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin: 50px;
+  text-align: justify;
+  text-indent: 150px;
+  font-size: 18px;
+}
+
+div.a {
+    
+    background-color: #98a0a3;
+    background-image: url(image/covid.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+ 
+    background-position: center;
+    background-blend-mode:soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  margin: 50px;
+  text-align: justify;
+  text-indent: 16px;
+  font-size: 18px;
+}
+
+.a {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 1px solid rgb(210, 235, 233);
+   
+}
+footer {
+  background-color: rgb(52, 52, 68);
+  height: 50px;
+}
+
+footer p {
+  padding: 10px;
+  text-align: center;
+  color: whitesmoke;
+}
+ 
+
+
+
+
+
+
+/* new for changes    -----*/
+
+
+ 
+
+ 
+a:link, a:visited { color: #750a20; text-decoration: none;} 
+a:active, a:hover { color: #FF0000;}
+
+p {
+	margin: 0 0 5px 0;
+	padding: 0px;
+}
+
+ 
+
+ 
+ 
+
+.updatedtime {
+	font-size: 10px;
+	font-weight: bold;
+	color: #FF0000;
+}
+
+ 
+
+#templatemo_container {
+	margin: auto;
+	width: 1000px;
+}
+
+#templatemo_top_panel {
+	float: left;
+	width: 1000px;
+	height: 100px;
+	margin: 0px;
+	color: #FFF;
+	background: #003 url(image/templatemo_top_panel_background.jpg) no-repeat;
+}
+
+#templatemo_sitetitle {
+	float: left;
+	width: 300px;
+	margin: 55px 0 0 15px;
+	padding: 10px 0 5px 0;
+	font-size: 35px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+#templatemo_searchbox {
+	float: left;
+	width: 320px;
+	margin: 40px 0 0 15px;
+}
+
+#templatemo_searchbox form {
+	margin: 0px;
+	padding: 0px;
+}
+
+#searchfield{
+	background:#FFFFFF;
+	border: none;
+	color: #000;
+	font-size: 13px;
+	font-variant: normal;
+	height: 16px;
+	line-height: normal;
+	padding: 4px;
+	width: 200px;
+}
+
+
+#searchbutton{
+	background: url(image/templatemo_search_button.gif); 
+	border: none;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: bold;
+	height: 24px;
+	margin: 0 0 0 7px;
+	padding: 0 6px;
+	text-align: center;
+	vertical-align: bottom;
+	white-space: pre;
+	width: 66px;
+}
+
+#templatemo_currentdate {
+	float: right;
+	width: 300px;
+	margin: 70px 15px 0 0;
+	text-align: right;
+	font-weight: bold;
+}
+
+/*------------- Menu ------------------*/
+#templatemo_menu {
+	float: left;
+	width: 1000px;
+	height: 30px;
+	background: #750a20 url(image/templatemo_menu_bg.gif) repeat-x;
+	border-bottom: 1px solid #333;
+}
+
+#templatemo_menu ul {
+	float: left;
+	width: 800px;
+	margin: 0;
+	padding: 7px 0 0 0;
+	list-style: none;
+}
+
+#templatemo_menu ul li{
+	display: inline;
+}
+
+#templatemo_menu ul li a{
+	float: left;
+	padding: 0 25px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	border-right: 1px solid #FFFFFF;
+}
+
+#templatemo_menu li a:hover, #templatemo_menu li .current{
+	color: #FFFF00;
+}
+
+/* end of menu */
+ 
+
+

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background: url('./images/webbackground.png');
+    background-position: 0 1000ps;
+    font-family: 'Roboto, sans-serif';
+}
+
+.btn {
+    color: blue;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    color: black;
+    border-radius: 5px;
+}
+
+.header {
+    background-color: black;
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header a:hover {
+    border-bottom: 1px solid white;
+    color: yellow;
+}
+
+.header a.active {
+    color: rgb(246, 192, 192);
+    border-bottom: 1px solid greenyellow;
+}
+
+.header-right {
+    float: right;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+h1 {
+    color: #398f51;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #777;
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.image {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+p {
+    font-size: 2rem;
+    color: #000;
+    line-height: 5rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 2.7 rem 7.5rem;
+    background: #f6f6f6;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #398f51;
+    border-radius: 10ps;
+    transition: Web;
+}
+
+.btn:hover {
+    background: #dadada;
+}
+
+footer {
+    background-color: rgb(52, 52, 68);
+    height: 50px;
+}
+
+footer p {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.container {
+    height: 480px;
+}
